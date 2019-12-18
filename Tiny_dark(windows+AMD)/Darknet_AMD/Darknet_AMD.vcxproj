@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FF6208BF-57A6-45CE-B66E-AC8769942140}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Darknet_AMD</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\opencl\Darknet_AMD\Darknet_AMD\include;C:\Program Files %28x86%29\AMD APP SDK\2.9\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\AMD APP SDK\2.9\lib\x86_64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\opencl\Tiny_dark%28windows+AMD%291\Darknet_AMD\include;C:\Program Files %28x86%29\AMD APP SDK\2.9\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\AMD APP SDK\2.9\lib\x86_64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>OpenCL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>OCL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenCL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\activations.h" />
+    <ClInclude Include="include\activation_layer.h" />
+    <ClInclude Include="include\avgpool_layer.h" />
+    <ClInclude Include="include\batchnorm_layer.h" />
+    <ClInclude Include="include\blas.h" />
+    <ClInclude Include="include\box.h" />
+    <ClInclude Include="include\classifier.h" />
+    <ClInclude Include="include\col2im.h" />
+    <ClInclude Include="include\connected_layer.h" />
+    <ClInclude Include="include\convolutional_layer.h" />
+    <ClInclude Include="include\cost_layer.h" />
+    <ClInclude Include="include\crnn_layer.h" />
+    <ClInclude Include="include\crop_layer.h" />
+    <ClInclude Include="include\cuda.h" />
+    <ClInclude Include="include\darknet.h" />
+    <ClInclude Include="include\data.h" />
+    <ClInclude Include="include\deconvolutional_layer.h" />
+    <ClInclude Include="include\demo.h" />
+    <ClInclude Include="include\detection_layer.h" />
+    <ClInclude Include="include\dropout_layer.h" />
+    <ClInclude Include="include\gemm.h" />
+    <ClInclude Include="include\gru_layer.h" />
+    <ClInclude Include="include\im2col.h" />
+    <ClInclude Include="include\image.h" />
+    <ClInclude Include="include\layer.h" />
+    <ClInclude Include="include\list.h" />
+    <ClInclude Include="include\local_layer.h" />
+    <ClInclude Include="include\matrix.h" />
+    <ClInclude Include="include\maxpool_layer.h" />
+    <ClInclude Include="include\mp2_layer.h" />
+    <ClInclude Include="include\network.h" />
+    <ClInclude Include="include\normalization_layer.h" />
+    <ClInclude Include="include\oclutils.h" />
+    <ClInclude Include="include\option_list.h" />
+    <ClInclude Include="include\parser.h" />
+    <ClInclude Include="include\pthread.h" />
+    <ClInclude Include="include\region_layer.h" />
+    <ClInclude Include="include\reorg_layer.h" />
+    <ClInclude Include="include\rnn_layer.h" />
+    <ClInclude Include="include\route_layer.h" />
+    <ClInclude Include="include\sgemm.h" />
+    <ClInclude Include="include\shortcut_layer.h" />
+    <ClInclude Include="include\softmax_layer.h" />
+    <ClInclude Include="include\stb_image.h" />
+    <ClInclude Include="include\stb_image_write.h" />
+    <ClInclude Include="include\tree.h" />
+    <ClInclude Include="include\upsample_layer.h" />
+    <ClInclude Include="include\utils.h" />
+    <ClInclude Include="include\yolo_layer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="darknet.c" />
+    <ClCompile Include="layers\avgpool_layer.c" />
+    <ClCompile Include="layers\batchnorm_layer.c" />
+    <ClCompile Include="layers\common\activations.c" />
+    <ClCompile Include="layers\common\blas.c" />
+    <ClCompile Include="layers\common\col2im.c" />
+    <ClCompile Include="layers\common\gemm.c" />
+    <ClCompile Include="layers\common\im2col.c" />
+    <ClCompile Include="layers\common\oclutils.c" />
+    <ClCompile Include="layers\connected_layer.c" />
+    <ClCompile Include="layers\convolutional_layer.c" />
+    <ClCompile Include="layers\maxpool_layer.c" />
+    <ClCompile Include="layers\softmax_layer.c" />
+    <ClCompile Include="net\classifier.c" />
+    <ClCompile Include="net\layer.c" />
+    <ClCompile Include="net\network.c" />
+    <ClCompile Include="net\parser.c" />
+    <ClCompile Include="net\pthread.cpp" />
+    <ClCompile Include="utlis\box.c" />
+    <ClCompile Include="utlis\captcha.c" />
+    <ClCompile Include="utlis\cifar.c" />
+    <ClCompile Include="utlis\compare.c" />
+    <ClCompile Include="utlis\cuda.c" />
+    <ClCompile Include="utlis\data.c" />
+    <ClCompile Include="utlis\demo.c" />
+    <ClCompile Include="utlis\dice.c" />
+    <ClCompile Include="utlis\go.c" />
+    <ClCompile Include="utlis\image.c" />
+    <ClCompile Include="utlis\list.c" />
+    <ClCompile Include="utlis\matrix.c" />
+    <ClCompile Include="utlis\nightmare.c" />
+    <ClCompile Include="utlis\option_list.c" />
+    <ClCompile Include="utlis\rnn.c" />
+    <ClCompile Include="utlis\rnn_vid.c" />
+    <ClCompile Include="utlis\super.c" />
+    <ClCompile Include="utlis\swag.c" />
+    <ClCompile Include="utlis\tag.c" />
+    <ClCompile Include="utlis\tree.c" />
+    <ClCompile Include="utlis\utils.c" />
+    <ClCompile Include="utlis\voxel.c" />
+    <ClCompile Include="utlis\writing.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

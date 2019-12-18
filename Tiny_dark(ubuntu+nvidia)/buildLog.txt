@@ -1,0 +1,9 @@
+GeForce RTX 2070 ,构建程序日志: (438)
+<kernel>:121:78: error: __kernel function cannot have argument whose type is, or contains, type size_t
+__kernel void mat_transpose(int M, int N, __global float *restrict X, size_t offset, __global float *restrict Y)
+                                                                             ^
+<kernel>:135:14: warning: unknown attribute 'num_simd_work_items' ignored
+__attribute((num_simd_work_items(SIMD_WORK_ITEMS)))
+             ^
+
+

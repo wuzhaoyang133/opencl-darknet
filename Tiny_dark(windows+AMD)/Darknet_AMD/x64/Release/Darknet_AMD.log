@@ -1,0 +1,1271 @@
+﻿生成启动时间为 2019/12/18 17:01:24。
+     1>项目“F:\Tiny_dark(windows+AMD)1\Darknet_AMD\Darknet_AMD.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D OCL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TC /errorReport:prompt darknet.c layers\avgpool_layer.c layers\batchnorm_layer.c layers\common\activations.c layers\common\blas.c layers\common\col2im.c layers\common\gemm.c layers\common\im2col.c layers\common\oclutils.c layers\connected_layer.c layers\convolutional_layer.c layers\maxpool_layer.c layers\softmax_layer.c net\classifier.c net\layer.c net\network.c net\parser.c utlis\box.c utlis\captcha.c utlis\cifar.c utlis\compare.c utlis\cuda.c utlis\data.c utlis\demo.c utlis\dice.c utlis\go.c utlis\image.c utlis\list.c utlis\matrix.c utlis\nightmare.c utlis\option_list.c utlis\rnn.c utlis\rnn_vid.c utlis\super.c utlis\swag.c utlis\tag.c utlis\tree.c utlis\utils.c utlis\voxel.c utlis\writing.c
+         darknet.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>darknet.c(83): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>darknet.c(84): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>darknet.c(86): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>darknet.c(87): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>darknet.c(88): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>darknet.c(92): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>darknet.c(93): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>darknet.c(140): warning C4305: “函数”: 从“double”到“float”截断
+     1>darknet.c(363): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>darknet.c(364): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>darknet.c(376): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>darknet.c(377): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>darknet.c(378): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>darknet.c(384): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>darknet.c(385): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>darknet.c(386): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>darknet.c(402): warning C4101: “filename”: 未引用的局部变量
+         avgpool_layer.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         batchnorm_layer.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>layers\batchnorm_layer.c(86): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\batchnorm_layer.c(101): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\batchnorm_layer.c(111): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\batchnorm_layer.c(133): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\batchnorm_layer.c(134): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\batchnorm_layer.c(135): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\batchnorm_layer.c(136): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\batchnorm_layer.c(148): warning C4028: 形参 1 与声明不同
+     1>layers\batchnorm_layer.c(246): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\batchnorm_layer.c(248): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\batchnorm_layer.c(250): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\batchnorm_layer.c(252): warning C4305: “函数”: 从“double”到“float”截断
+         activations.c
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         blas.c
+     1>layers\common\blas.c(85): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(108): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(101): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(122): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(143): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(182): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(175): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(211): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(225): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>layers\common\blas.c(247): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         col2im.c
+     1>layers\common\col2im.c(35): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+         gemm.c
+     1>layers\common\gemm.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\sgemm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         im2col.c
+         oclutils.c
+     1>layers\common\oclutils.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>layers\common\oclutils.c(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>layers\common\oclutils.c(270): warning C4267: “函数”: 从“size_t”转换到“cl_uint”，可能丢失数据
+     1>layers\common\oclutils.c(279): warning C4267: “函数”: 从“size_t”转换到“cl_uint”，可能丢失数据
+     1>layers\common\oclutils.c(288): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>layers\common\oclutils.c(305): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>layers\common\oclutils.c(340): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>layers\common\oclutils.c(377): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>layers\common\oclutils.c(413): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>layers\common\oclutils.c(540): warning C4473: “printf”: 没有为格式字符串传递足够的参数
+         layers\common\oclutils.c(540): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+         layers\common\oclutils.c(540): note: the missing variadic argument 1 is required by format string '%s'
+         connected_layer.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>layers\connected_layer.c(37): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>layers\connected_layer.c(155): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\connected_layer.c(156): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\connected_layer.c(157): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\connected_layer.c(158): warning C4305: “函数”: 从“double”到“float”截断
+     1>layers\connected_layer.c(215): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         convolutional_layer.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>layers\convolutional_layer.c(39): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\convolutional_layer.c(52): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>layers\convolutional_layer.c(62): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>layers\convolutional_layer.c(200): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>layers\convolutional_layer.c(353): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>layers\convolutional_layer.c(464): warning C4028: 形参 1 与声明不同
+     1>layers\convolutional_layer.c(611): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         maxpool_layer.c
+     1>layers\maxpool_layer.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         softmax_layer.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>layers\softmax_layer.c(145): warning C4013: “sum_array”未定义；假设外部返回 int
+     1>layers\softmax_layer.c(145): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+         classifier.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\classifier.c(22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\classifier.c(35): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(123): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\classifier.c(129): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>net\classifier.c(134): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>net\classifier.c(139): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>net\classifier.c(267): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(335): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(407): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(468): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(547): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>net\classifier.c(553): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>net\classifier.c(558): warning C4305: “初始化”: 从“double”到“float”截断
+     1>net\classifier.c(559): warning C4305: “初始化”: 从“double”到“float”截断
+     1>net\classifier.c(613): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(799): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(812): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>net\classifier.c(819): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+     1>net\classifier.c(850): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(965): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>net\classifier.c(1035): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\classifier.c(1036): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\classifier.c(1037): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\classifier.c(988): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>net\classifier.c(957): warning C4101: “c”: 未引用的局部变量
+     1>net\classifier.c(957): warning C4101: “h”: 未引用的局部变量
+     1>net\classifier.c(957): warning C4101: “w”: 未引用的局部变量
+     1>net\classifier.c(1348): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         layer.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         network.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(50): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(60): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(62): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(63): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(65): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(67): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(445): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>net\network.c(503): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(523): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(524): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(557): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(558): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(587): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(588): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(645): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(646): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(788): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>net\network.c(789): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>net\network.c(847): warning C4101: “errNum”: 未引用的局部变量
+         parser.c
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>net\parser.c(97): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>net\parser.c(225): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>net\parser.c(261): warning C4305: “函数”: 从“double”到“float”截断
+     1>net\parser.c(262): warning C4305: “函数”: 从“double”到“float”截断
+     1>net\parser.c(263): warning C4305: “函数”: 从“double”到“float”截断
+     1>net\parser.c(272): warning C4305: “函数”: 从“double”到“float”截断
+     1>net\parser.c(273): warning C4305: “函数”: 从“double”到“float”截断
+     1>net\parser.c(274): warning C4305: “函数”: 从“double”到“float”截断
+     1>net\parser.c(303): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>net\parser.c(313): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>net\parser.c(430): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>net\parser.c(556): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>net\parser.c(769): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+         box.c
+     1>utlis\box.c(113): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(161): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(162): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(163): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(164): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(148): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(149): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(150): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(151): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(153): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(183): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(184): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(185): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(186): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(170): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(171): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(172): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(173): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(175): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(212): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(213): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(214): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(215): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(195): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(196): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(197): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(198): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(200): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\box.c(235): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(236): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(237): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(238): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(391): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(392): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(401): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\box.c(402): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         captcha.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\captcha.c(31): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\captcha.c(87): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\captcha.c(92): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\captcha.c(113): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>utlis\captcha.c(119): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         cifar.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\cifar.c(13): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\cifar.c(35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\cifar.c(40): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\cifar.c(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\cifar.c(50): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\cifar.c(61): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\cifar.c(83): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\cifar.c(91): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\cifar.c(81): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\cifar.c(96): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\cifar.c(101): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\cifar.c(106): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\cifar.c(122): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\cifar.c(153): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\cifar.c(179): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\cifar.c(186): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\cifar.c(197): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\cifar.c(224): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         正在编译...
+         compare.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\compare.c(12): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\compare.c(56): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\compare.c(70): warning C4305: “*=”: 从“double”到“float”截断
+     1>utlis\compare.c(61): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\compare.c(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\compare.c(88): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\compare.c(196): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\compare.c(197): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\compare.c(198): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\compare.c(199): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\compare.c(234): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\compare.c(266): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\compare.c(323): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\compare.c(324): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+         cuda.c
+         data.c
+     1>utlis\data.c(15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(152): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>utlis\data.c(199): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\data.c(200): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\data.c(337): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(464): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(467): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(472): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>utlis\data.c(531): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(532): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(533): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(534): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(553): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\data.c(528): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(529): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(531): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(532): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(533): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(534): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(590): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(592): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>utlis\data.c(598): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(600): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>utlis\data.c(650): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(651): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(652): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(653): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(671): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\data.c(647): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(648): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(650): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(651): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(652): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(653): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(700): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(701): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(702): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(703): warning C4244: “函数”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\data.c(722): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\data.c(697): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(698): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(700): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(701): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(702): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(703): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\data.c(979): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\data.c(983): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\data.c(971): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(1012): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\data.c(1013): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\data.c(1043): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\data.c(1050): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\data.c(1034): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\data.c(1035): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(1057): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\data.c(1071): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+         demo.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         dice.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\dice.c(9): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\dice.c(35): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\dice.c(38): warning C4305: “*=”: 从“double”到“float”截断
+     1>utlis\dice.c(41): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\dice.c(53): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\dice.c(83): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>utlis\dice.c(89): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         go.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\go.c(38): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\go.c(119): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\go.c(145): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\go.c(150): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\go.c(156): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\go.c(161): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\go.c(165): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\go.c(197): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\go.c(198): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\go.c(199): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\go.c(200): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\go.c(306): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\go.c(403): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\go.c(439): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\go.c(536): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\go.c(448): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(449): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(452): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\go.c(463): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(484): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(497): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(501): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(504): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(533): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(560): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>utlis\go.c(565): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\go.c(608): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\go.c(683): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\go.c(658): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>utlis\go.c(659): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>utlis\go.c(670): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>utlis\go.c(679): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>utlis\go.c(686): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>utlis\go.c(701): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\go.c(726): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+     1>utlis\go.c(749): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\go.c(787): warning C4305: “函数”: 从“double”到“float”截断
+         image.c
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\stb_image_write.h(210): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\stb_image_write.h(372): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>F:\Tiny_dark(windows+AMD)1\Darknet_AMD\include\stb_image_write.h(702): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\image.c(26): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(27): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(85): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(152): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\image.c(153): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\image.c(154): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\image.c(155): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\image.c(172): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\image.c(191): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(221): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(188): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(209): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(210): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(211): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(212): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(265): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>utlis\image.c(269): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>utlis\image.c(270): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>utlis\image.c(274): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>utlis\image.c(310): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(316): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\image.c(273): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\image.c(282): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(297): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(298): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(299): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(300): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(338): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\image.c(384): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(385): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(386): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(387): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(474): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(478): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(725): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\image.c(753): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\image.c(790): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(806): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(807): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(812): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(813): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(825): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(826): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(831): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(832): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(878): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(1013): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\image.c(1016): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(1018): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(1019): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(1069): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\image.c(1093): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\image.c(1124): warning C4305: “初始化”: 从“double”到“float”截断
+     1>utlis\image.c(1140): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>utlis\image.c(1329): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\image.c(1330): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\image.c(1331): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\image.c(1332): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\image.c(1384): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         list.c
+         matrix.c
+     1>utlis\matrix.c(120): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+         nightmare.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\nightmare.c(18): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\nightmare.c(201): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\nightmare.c(204): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\nightmare.c(205): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\nightmare.c(220): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\nightmare.c(221): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\nightmare.c(223): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\nightmare.c(249): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\nightmare.c(276): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\nightmare.c(301): warning C4244: “函数”: 从“double”转换到“int”，可能丢失数据
+     1>utlis\nightmare.c(301): warning C4244: “函数”: 从“float”转换到“int”，可能丢失数据
+     1>utlis\nightmare.c(287): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\nightmare.c(289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         option_list.c
+     1>utlis\option_list.c(9): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\option_list.c(113): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\option_list.c(120): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         rnn.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\rnn.c(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\rnn.c(23): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>utlis\rnn.c(31): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1193): note: 参见“fscanf”的声明
+     1>utlis\rnn.c(43): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\rnn.c(131): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\rnn.c(187): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\rnn.c(138): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\rnn.c(203): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\rnn.c(208): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\rnn.c(213): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\rnn.c(246): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>utlis\rnn.c(373): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\rnn.c(341): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>utlis\rnn.c(352): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\rnn.c(414): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\rnn.c(393): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>utlis\rnn.c(404): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\rnn.c(432): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>utlis\rnn.c(445): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>utlis\rnn.c(478): warning C4305: “函数”: 从“double”到“float”截断
+     1>utlis\rnn.c(479): warning C4244: “函数”: 从“time_t”转换到“int”，可能丢失数据
+         rnn_vid.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         super.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\super.c(14): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\super.c(57): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\super.c(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\super.c(67): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\super.c(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\super.c(91): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>utlis\super.c(97): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         swag.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\swag.c(16): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\swag.c(66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\swag.c(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\swag.c(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+         tag.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\tag.c(11): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\tag.c(66): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\tag.c(72): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\tag.c(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\tag.c(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\tag.c(110): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>utlis\tag.c(116): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         tree.c
+     1>utlis\tree.c(84): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\tree.c(94): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+         utils.c
+     1>utlis\utils.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>utlis\utils.c(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>utlis\utils.c(99): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(166): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\utils.c(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\utils.c(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\utils.c(271): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>utlis\utils.c(289): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>utlis\utils.c(283): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+         utlis\utils.c(283): note: consider using '%zd' in the format string
+     1>utlis\utils.c(315): warning C4013: “read”未定义；假设外部返回 int
+     1>utlis\utils.c(326): warning C4013: “write”未定义；假设外部返回 int
+     1>utlis\utils.c(357): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>utlis\utils.c(400): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(401): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(402): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(473): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(474): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(482): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(494): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(489): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(512): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(526): warning C4244: “函数”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(570): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(580): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\utils.c(620): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+         voxel.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\voxel.c(51): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\voxel.c(94): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\voxel.c(99): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\voxel.c(104): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\voxel.c(110): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\voxel.c(128): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>utlis\voxel.c(134): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         writing.c
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(26): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(27): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(25): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(36): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(37): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(39): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(40): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(41): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(42): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(43): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(46): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(47): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(48): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(53): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(54): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(60): warning C4305: “return”: 从“double”到“float”截断
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(72): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(80): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(82): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(83): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(84): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\include\activations.h(86): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\writing.c(12): warning C4244: “函数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>utlis\writing.c(71): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>utlis\writing.c(76): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\writing.c(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>utlis\writing.c(101): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+     1>utlis\writing.c(107): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(453): note: 参见“strtok”的声明
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D OCL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt net\pthread.cpp
+         pthread.cpp
+     1>net\pthread.cpp(356): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\sys/timeb.h(76): note: 参见“_ftime64”的声明
+     1>net\pthread.cpp(461): warning C4312: “类型转换”: 从“unsigned int”转换到更大的“void *”
+     1>net\pthread.cpp(640): warning C4101: “j”: 未引用的局部变量
+     1>net\pthread.cpp(640): warning C4101: “i”: 未引用的局部变量
+     1>net\pthread.cpp(690): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+     1>net\pthread.cpp(846): warning C4244: “参数”: 从“unsigned __int64”转换到“DWORD”，可能丢失数据
+     1>net\pthread.cpp(948): warning C4312: “类型转换”: 从“int”转换到更大的“void *”
+     1>net\pthread.cpp(1053): warning C4018: “>”: 有符号/无符号不匹配
+     1>net\pthread.cpp(1060): warning C4018: “>”: 有符号/无符号不匹配
+     1>net\pthread.cpp(1071): warning C4018: “>=”: 有符号/无符号不匹配
+     1>net\pthread.cpp(1081): warning C4018: “>”: 有符号/无符号不匹配
+     1>net\pthread.cpp(1187): warning C4244: “参数”: 从“unsigned __int64”转换到“DWORD”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Tiny_dark(windows+AMD)1\x64\Release\Darknet_AMD.exe" /INCREMENTAL:NO /NOLOGO OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Tiny_dark(windows+AMD)1\x64\Release\Darknet_AMD.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Tiny_dark(windows+AMD)1\x64\Release\Darknet_AMD.lib" /MACHINE:X64 x64\Release\darknet.obj
+         x64\Release\avgpool_layer.obj
+         x64\Release\batchnorm_layer.obj
+         x64\Release\activations.obj
+         x64\Release\blas.obj
+         x64\Release\col2im.obj
+         x64\Release\gemm.obj
+         x64\Release\im2col.obj
+         x64\Release\oclutils.obj
+         x64\Release\connected_layer.obj
+         x64\Release\convolutional_layer.obj
+         x64\Release\maxpool_layer.obj
+         x64\Release\softmax_layer.obj
+         x64\Release\classifier.obj
+         x64\Release\layer.obj
+         x64\Release\network.obj
+         x64\Release\parser.obj
+         x64\Release\pthread.obj
+         x64\Release\box.obj
+         x64\Release\captcha.obj
+         x64\Release\cifar.obj
+         x64\Release\compare.obj
+         x64\Release\cuda.obj
+         x64\Release\data.obj
+         x64\Release\demo.obj
+         x64\Release\dice.obj
+         x64\Release\go.obj
+         x64\Release\image.obj
+         x64\Release\list.obj
+         x64\Release\matrix.obj
+         x64\Release\nightmare.obj
+         x64\Release\option_list.obj
+         x64\Release\rnn.obj
+         x64\Release\rnn_vid.obj
+         x64\Release\super.obj
+         x64\Release\swag.obj
+         x64\Release\tag.obj
+         x64\Release\tree.obj
+         x64\Release\utils.obj
+         x64\Release\voxel.obj
+         x64\Release\writing.obj
+         正在生成代码
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\layers\common\gemm.c(194): warning C4700: 使用了未初始化的局部变量“errNum”
+     1>f:\tiny_dark(windows+amd)1\darknet_amd\net\classifier.c(1040): warning C4700: 使用了未初始化的局部变量“time”
+         All 481 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         Darknet_AMD.vcxproj -> F:\Tiny_dark(windows+AMD)1\x64\Release\Darknet_AMD.exe
+     1>已完成生成项目“F:\Tiny_dark(windows+AMD)1\Darknet_AMD\Darknet_AMD.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:01:26.06

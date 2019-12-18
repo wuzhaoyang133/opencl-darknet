@@ -1,0 +1,25 @@
+Oland ,构建程序日志: (903)
+"C:\Users\fpga\AppData\Local\Temp\OCL9400T1.cl", line 87: warning: variable
+          "w_offset" was declared but never referenced
+          int w_offset = -pad;
+              ^
+
+"C:\Users\fpga\AppData\Local\Temp\OCL9400T1.cl", line 88: warning: variable
+          "h_offset" was declared but never referenced
+          int h_offset = -pad;
+              ^
+
+"C:\Users\fpga\AppData\Local\Temp\OCL9400T1.cl", line 187: warning: unknown
+          attribute "num_simd_work_items"
+  __attribute((num_simd_work_items(SIMD_WORK_ITEMS)))
+               ^
+
+"C:\Users\fpga\AppData\Local\Temp\OCL9400T1.cl", line 186: error: work group
+          size exceeds the maximum default value for the selected device
+  __attribute((reqd_work_group_size(BLOCK_SIZE,BLOCK_SIZE,1)))
+               ^
+
+1 error detected in the compilation of "C:\Users\fpga\AppData\Local\Temp\OCL9400T1.cl".
+Frontend phase failed compilation.
+
+
